@@ -1,0 +1,159 @@
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.tahoma-font{
+  font-family: Tahoma;
+  font-size: 18px;
+  font-weight: bold;
+}
+.arial-font{
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+}
+.red-style{
+  color: red;
+}
+.verdana-font{
+  font-family: Verdana;
+  font-size: 15px;
+  font-weight: bold;
+}
+.verdada2-font{
+  font-family: Verdana;
+  font-size: 12px;
+  color:gray;
+}
+.verdada3-font{
+  font-family: Verdana;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.getstart-button{
+  background-color: green;
+  color:white;
+  font-family: Verdana;
+  border:none;
+  border-radius: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+.arial2-font{
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  
+  text-align: center;
+}
+.arial3-font{
+  font-family: Arial;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
+.learnmore{
+  font-family: Arial;
+  font-size: 12px;
+  color: blue;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 10px;
+}
+.new{
+  font-family: Arial;
+  font-size: 10px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+}
+.macbook{
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  color:black;
+  text-align: center;
+  margin-top: 8px;
+}
+.supercharged{
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: bold;
+  color:black;
+  text-align: center;
+  margin-top: 8px;
+}
+.cost{
+  font-family: Arial;
+  font-size: 12px;
+  color: black;
+  text-align: center;
+  margin-top: 8px;
+}
+.buy-button{
+  font-family: Arial;
+  background-color: blue;
+  color:white;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 15px;
+  border:none;
+  margin-top: 25px;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.num{
+  font-family: Arial;
+  font-size: 28px;
+}
+.use{
+  font-size: 15px;
+  color:gray;
+}
+.today{
+  font-family: Arial;
+  font-size: 14px;
+  color:gray;
+  margin-top: 8px;
+}
+.after{
+  font-family: Arial;
+  font-size: 14px;
+  color:gray;
+  margin-top: 8px;
+}
+.changecolor{
+  color:red;
+}
+.free{
+  font-family: Arial;
+  font-size:15px;
+  font-weight: bold;
+  color:black;
+}
+.email{
+  color:gray;
+  font-weight:normal;
+}
+.as{
+  font-family: Arial;
+  font-size: 15px;
+  margin-top: 8px;
+  width: 470px;
+}
+.here{
+  font-family: Arial;
+  font-size: 15px;
+  margin-top: 8px;
+  width: 470px;
+}
+.chp{
+  color:rgb(70, 70, 233);
+}

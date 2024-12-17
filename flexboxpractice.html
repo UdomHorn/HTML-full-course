@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Practice</title>
+</head>
+<body>
+  <div class="flex-1">
+    <div style="background-color: lightblue; width: 200px;">200px</div>
+    <div style="background-color: lightpink; width: 75px;">75px</div>
+  </div>
+
+  <div class="flex-2">
+    <div style="background-color: lightblue;width:50px;">item1</div>
+    <div style="background-color: lightpink;flex:1;">item2</div>
+    <div style="background-color: lightblue;width:75px;">item3</div>
+  </div>
+  
+  <div class="flex-3">
+    <div style="background-color: lightpink;">item1</div>
+    <div style="background-color: lightpink;">item2</div>
+    <div style="background-color: lightpink;">item3</div>
+    <div style="background-color: lightpink;">item4</div>
+  </div>
+
+  <div class="flex-4">
+      <div style="background-color: lightpink;">item1</div>
+      <div style="background-color: lightpink;">item2</div>
+  </div><br><br>
+
+  <div class="flex-border">
+    <div style="margin-bottom: 12px;" class="flex-5">
+      <div>Home</div>
+      <div class="noti-number">14</div>
+    </div>
+    <div style="margin-bottom: 12px;" class="flex-5">
+      <div>Notifications</div>
+      <div class="noti-number">3</div>
+    </div>
+    <div class="flex-5">
+      <div>Messages</div>
+      <div class="noti-number">5</div>
+    </div>
+  </div><br><br><br>
+<div style="font-family: Arial;">
+  <div class="flex-7">
+    <div class="flex-6">
+      <img style="width: 40px;height: 40px;border-radius: 25px; margin-right: 12px;" src="Thumnail/cutecat.jpg" alt="">
+      <div>
+        <div><strong>Oliver</strong></div>
+        <div>the cat</div>
+        <div>Popular</div>
+      </div>
+    </div>
+    <button class="follow-button">Follow</button>
+  </div>
+
+  <div class="flex-7">
+    <div class="flex-6">
+      <img style="width: 40px;height: 40px;border-radius: 25px; margin-right: 12px;" src="Thumnail/cuterabbit.jpg" alt="">
+      <div>
+        <div><strong>Mimi</strong></div>
+        <div>the rabbit</div>
+        <div>Popular</div>
+      </div>
+    </div>
+    <button class="follow-button">Follow</button>
+  </div>
+  <div class="flex-7">
+    <div class="flex-6">
+      <img style="width: 40px;height: 40px;border-radius: 25px; margin-right: 12px;" src="Thumnail/cutedog.jpg" alt="">
+      <div>
+        <div><strong>Rex</strong></div>
+        <div>the dog</div>
+        <div>Popular</div>
+      </div>
+    </div>
+    <button class="follow-button">Follow</button>
+  </div>
+</div><br><br><br>
+<div class="flex-8">
+  <div style="color: white; font-size:14px;">Home</div>
+  <div><input style="width:350px;padding:12px;padding-top:5px;padding-bottom: 5px;; border-radius: 25px;border:1px solid gray;" type="text" placeholder="Search"></div>
+  <div><button style="border:1px solid white;background-color: purple;color:white;padding:8px;border-radius: 3px;">Download</button></div>
+</div>
+  
+</body>
+</html>
+<style>
+  .flex-1{
+    display:flex;
+    flex-direction:row;
+  }
+  .flex-2{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  .flex-3{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .flex-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    border:1px solid gray;
+    height:50px;
+    align-items: center;
+  }
+  .flex-border{
+    border:1px solid gray;
+    padding:12px;
+    border-radius: 4px;
+    width:300px;
+    font-family: Arial;
+  }
+  .flex-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .noti-number{
+    background-color: rgb(69, 69, 234);
+    padding:12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:white;
+    border:1px solid none;
+    border-radius: 25px;
+  }
+  .flex-7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:300px;
+
+  }
+  .flex-6{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .follow-button{
+    padding: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgb(40, 86, 225);
+    color:white;
+    border-radius: 4px;
+    border:none;
+  }
+  .flex-8{
+    font-family: Arial;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    padding: 10px;
+
+  }
+</style>

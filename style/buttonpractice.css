@@ -1,0 +1,145 @@
+
+  .requet_button {
+    background-color: black;
+    color: white;
+    height:36px;
+    width: 100px;
+    cursor: pointer;
+    border:none;
+    transition:opacity 0.5s;
+  }
+  .requet_button:hover{
+    opacity:0.8;
+  }
+.addtocart_button{
+  background-color: rgb(255, 216, 20);
+  border-color:rgb(255, 216, 20);
+  color:black;
+  height:36px;
+  width: 150px;
+  border-radius: 30px;
+  cursor: pointer;
+  border:none;
+  transition: background-color 0.5s;
+}
+.addtocart_button:hover{
+  background-color: rgba(209, 176, 10, 0.825);
+}
+.signup_button{
+  background-color: rgb(46,164,79);
+  border-color: rgb(46,164,79);
+  color:white;
+  height:36px;
+  width:80px;
+  border-radius: 4px;
+  cursor:pointer;
+  border:none;
+  font-weight: bold;
+  transition: box-shadow 0.2s;
+}
+.signup_button:hover{
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+}
+.getstart_button{
+  background-color: rgb(121,82,179);
+  border-color: rgb(108,117,125);
+  color: white;
+  height: 36px;
+  width:95px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  border:none;
+  transition:opacity 0.2s;
+}
+.getstart_button:hover{
+  opacity: 0.8;
+}
+.download_button{
+  color:black;
+  background-color:white;
+  height:36px;
+  width:95px;
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: black;
+  transition:background-color 0.5s,color 0.5s;
+}
+.download_button:hover{
+  background-color:black;
+  color:white;
+}
+.apply_button{
+  background-color: rgb(10,102,194);
+  height: 36px;
+  width: 200px;
+  color: white;
+  border-color: rgb(10,102,194);
+  border-radius: 25px;
+  font-style: bold;
+  cursor: pointer;
+  border:none;
+  transition: background-color 0.5s;
+}
+.apply_button:hover{
+  background-color: rgb(3, 78, 153);
+}
+.save_button{
+  background-color: white;
+  color:rgb(10,102,194);
+  border-radius: 25px;
+  height: 36px;
+  width: 68px;
+  border-color:rgb(10,102,194);
+  border-style: solid;
+  border-width: 1px;
+}
+.save_button:hover{
+  border-width: 2px;
+  background-color: rgba(10,102,194,0.2);
+}
+a{
+  color:rgb(0,113,133);
+}
+a:hover{
+  color:rgb(255,164,28);
+}
+h3{
+  color:rgb(0,118,0);
+}
+.addtocart2_button{
+  background-color: rgb(255,216,20);
+  height:36px;
+  width: 150px;
+  color: black;
+  border-color: rgb(255, 216, 20);
+  border-radius: 30px;
+  border:none;
+  cursor: pointer;
+  transition:background-color 0.2s,opacity 0.2s;
+}
+.addtocart2_button:hover{
+  background-color: rgb(173, 145, 3);
+}
+.addtocart2_button:active{
+  opacity: 0.5;
+}
+.buynow_button{
+  background-color: rgb(255,164,28);
+  height:36px;
+  width: 150px;
+  color: black;
+  border-color: rgb(255, 164, 28);
+  border-radius: 30px;
+  cursor: pointer;
+  border:none;
+  margin-left: 7px;
+  transition:background-color 0.2s,opacity 0.2s;
+}
+.buynow_button:hover{
+  background-color: rgb(182, 113, 9);
+}
+.buynow_button:active{
+  opacity: 0.5;
+}

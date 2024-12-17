@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Block & Inline-block</title>
+</head>
+<body>
+  <input class="name" type="text" placeholder="Name">
+  <input class="email" type="text" placeholder="Email"><br><br><br>
+  <p class="thanks">Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+  <button class="yes">Yes</button>
+  <button class="no">No</button><br><br><br>
+  <img class="logo" src="Thumnail/googlelogo_light_color_272x92dp.png" alt="">
+  <input class="google" type="text" placeholder="Search Google or type a URL"><br><br><br>
+  <input class="firstname" type="text" placeholder="First name">
+  <input class="lastname" type="text" placeholder="Last name"><br>
+  <input class="email-2" type="text" placeholder="Email"><br>
+  <button class="signup">Sign UP</button><br><br><br>
+  <h1>Request a ride now</h1>
+  <input class="pickup" type="text" placeholder="Enter pickup location">
+  <input class="destination" type="text"placeholder="Enter destination">
+  <button class="request-button">Request now</button>
+  <input class="schedule" type="text"placeholder="Schedule for date">
+</body>
+</html>
+<style>
+  .name{
+    display: block; 
+    margin-bottom: 5px;
+  }
+  .thanks{
+    width:200px;
+    display: inline-block;
+  }
+  .logo{
+    background-color: black;
+    display:block;
+    margin-left: 70px;
+    margin-bottom: 25px;
+  }
+  .google{
+    width: 400px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 12px;
+    border-radius: 16px;
+    border: 1px solid gray;
+    box-shadow: 3px 3px 3px rgba(75, 55, 55, 0.125);
+  }
+  .firstname,.lastname{
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width:200px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border:2px solid lightgray;
+  }
+  .email-2{
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width:428px;
+    margin-right: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    border: 2px solid lightgray;
+  }
+  .signup{
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width:440px;
+    margin-right: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: rgb(46, 46, 228);
+    color:white;
+  }
+  .pickup,.destination{
+    background-color: lightgray;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    width:440px;
+    border-radius: 4px;
+    border:none;
+    display: block;
+    
+  }
+  .request-button{
+    background-color: Black;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width:200px;
+    margin-right: 10px;
+    border-radius: 4px;
+    color:white;
+
+  }
+  .schedule{
+    background-color: lightgray;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    width: 22px0px;
+    border-radius: 4px;
+    border:none;
+  }
+</style>

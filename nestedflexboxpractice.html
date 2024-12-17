@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div style="display: flex">
+    <div style="background-color: lightpink;width:100px;padding:20px; display:flex;justify-content: center;">
+    <div style="background-color: black;color:white;">item1</div>
+    </div>
+    <div style="background-color: lightblue;width:200px;"></div>
+  </div><br><br><br>
+
+  <div style="display: flex;">
+    <div style="background-color: lightpink;width:100px;"></div>
+    <div style="background-color: lightblue;width:200px;display:flex; justify-content: space-between;height:60px;align-items: center;">
+      <div style="display: flex;flex-direction:column;">
+        <div>row1</div>
+        <div style="background-color: black;color:white;">row2</div>
+      </div>
+      <div style="background-color: black;color:white;">row3</div>
+    </div>
+  </div><br><br><br>
+
+  <div class="box-1">
+    <div style="color:gray;padding-bottom: 15px;">ALL INBOXES</div>
+    <div class="info">
+      <div><img src="Thumnail/cutecat.jpg" alt=""></div>
+      <div class="text">
+        <div class="text-hour">
+          <div class="chewy"><strong>Chewy Promotions</strong></div>
+            <div class="hour">4:58 PM</div>
+        </div>
+        <div class="biggest"><strong> Biggest sales of the year!</strong></div>
+        <div class="hey">Hey there! We're writing to tell you about our...</div>
+      </div>
+    </div>
+  </div><br><br><br>
+
+  <div class="box-1">
+    <div style="color:gray;padding-bottom: 15px;">ALL INBOXES</div>
+    
+      <div class="info">
+        <div><img src="Thumnail/cutecat.jpg" alt=""></div>
+        <div class="text">
+          <div class="text-hour">
+            <div class="chewy"><strong>Chewy Promotions</strong></div>
+              <div class="hour">4:58 PM</div>
+          </div>
+          <div class="biggest"><strong> Biggest sales of the year!</strong></div>
+          <div class="hey">Hey there! We're writing to tell you about our...</div>
+        </div>
+      </div>
+
+      <div class="info">
+        <div><img src="Thumnail/cutedog.jpg" alt=""></div>
+        <div class="text">
+          <div class="text-hour">
+            <div class="chewy"><strong>Best Buy</strong></div>
+              <div class="hour">12:32 PM</div>
+          </div>
+          <div class="biggest"><strong>Your Best Buy eReceipt</strong></div>
+          <div class="hey">Thank you for shopping at Best Buy, here is...</div>
+        </div>
+      </div>
+
+      <div class="info">
+        <div><img src="Thumnail/cuterabbit.jpg" alt=""></div>
+        <div class="text">
+          <div class="text-hour">
+            <div class="chewy"><strong>Netflix</strong></div>
+              <div class="hour">9:00 AM</div>
+          </div>
+          <div class="biggest"><strong>Here's what's coming soon to Netflix</strong></div>
+          <div class="hey">Brand new movies and shows, old favorites...</div>
+        </div>
+      </div>
+  </div><br><br><br>
+
+  <div class="twitter">
+    <div><img src="Thumnail/cutecat.jpg" alt=""></div>
+    <div class="text-design">
+      <div class="sup"><strong> supersimple.dev</strong><span class="email"> @SupersimpleDev</span></div>
+      <div class="what">What is backend web devlopment?A complete overview. New video is up!</div>
+      
+      <div class="youtube">
+        <div class="left"></div>
+        <div class="middle"></div>
+        <div class="right">
+          <div class="text-1">youtube.com</div>
+          <div class="text-2">Backend web development - a complete overview(2021)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+<style>
+  .box-1{
+    font-family:Arial, Helvetica, sans-serif;
+    padding:12px;
+    padding-bottom: 30px;
+    width:350px;
+    border: 1px solid rgb(193, 193, 193);
+    box-shadow:1px 1px 3px rgba(37, 37, 37, 0.5);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+  }
+  img{
+    width:50px;
+    height:50px;
+    border-radius: 25px;
+  }
+  .info{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+  }
+  .text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+  }
+  .chewy{
+    padding-bottom: 5px;
+  }
+  .biggest{
+    padding-bottom: 5px;
+    font-size: 14px;
+  }
+  .hey,.hour{
+    font-size: 14px;
+    color:gray;
+  }
+  .text-hour{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .twitter{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width:400px;
+  }
+  .email{
+    color:gray;
+  }
+  .text-design{
+    margin-left: 15px;
+   margin-bottom: 10px;
+   width:350px;
+  }
+  .sup,.what{
+    margin-bottom: 5px;
+  }
+  .youtube{
+    display: flex;
+    flex-direction: row;
+    width:400px;
+    margin-top: 20px;
+  }
+.left{
+
+  display:block;
+  width:80px;
+  height:100px;
+  background-color: rgb(232, 232, 232);
+  border-radius: 20px;
+  border:1px solid rgb(232, 232, 232);
+}
+.middle{
+
+  background-color: rgb(232, 232, 232);
+  width:40px;
+  height: 100px;
+  margin-left:-22px;
+  margin-right: -22px;
+  border:1px solid rgb(232, 232, 232)
+  
+
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  width:269px;
+  height: 98px;
+  border:2px solid rgb(232, 232, 232);
+  border-radius: 20px;
+}
+.text-1{
+  padding: 5px;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.text-2{
+  padding-left: 40px;
+}
+</style>
